@@ -18,12 +18,14 @@ Live demo [_here_](https://sashauly.github.io/meme-generator-react/).
 
 ## General info
 
+Dynamic website which provide you some random meme from
+
 ## Technologies
 
 Project is created with:
 
 - JavaScript ES6
-- React(props)
+- React(states, props)
 - Vite
 
 ## Setup
