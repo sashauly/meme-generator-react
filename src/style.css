@@ -8,6 +8,10 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+main {
+  padding: 2.25rem;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -41,4 +45,36 @@ body {
 
   font-size: 0.75rem;
   font-weight: 500;
+}
+
+.form {
+  display: grid;
+
+  grid-template: 35px 35px / 1fr 1fr;
+  gap: 1em;
+}
+
+.form__input {
+  text-indent: 0.625rem;
+
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+
+  font-family: "Karla", sans-serif;
+  font-size: 0.75rem;
+}
+
+.form__button {
+  cursor: pointer;
+
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #711f8d 0%, #a818da 100%);
+
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+
+  grid-column: 1 / -1;
 }
