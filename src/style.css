@@ -78,3 +78,7 @@ main {
 
   grid-column: 1 / -1;
 }
+
+.meme__image {
+  max-width: 100%;
+}
