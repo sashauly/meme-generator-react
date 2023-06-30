@@ -16,16 +16,16 @@ body {
   padding: 0 1rem;
 }
 
-.wrapper{
-display: grid;
+.wrapper {
+  display: grid;
 
-    padding: 1em;
+  padding: 1em;
 
-    border-radius: 0.6em;
-    background-color: var(--default-color);
-    box-shadow: 0 0.9em 2.8em rgba(86,66,0,0.2);
+  border-radius: 0.6em;
+  background-color: var(--default-color);
+  box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
 
-place-content: center;
+  place-content: center;
 }
 
 .header {
@@ -84,7 +84,6 @@ place-content: center;
   font-size: 0.75rem;
 }
 
-
 .meme {
   position: relative;
 
@@ -116,16 +115,9 @@ place-content: center;
   text-transform: uppercase;
 
   color: white;
-  text-shadow:
-      2px 2px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      0 2px 0 #000,
-      2px 0 0 #000,
-      0 -2px 0 #000,
-      -2px 0 0 #000,
-      2px 2px 5px #000;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
 
   font-family: impact, sans-serif;
   font-size: 1.5em;
@@ -138,7 +130,6 @@ place-content: center;
 .top {
   top: 0;
 }
-
 
 .meme--button {
   padding: 0.5em;
@@ -153,20 +144,19 @@ place-content: center;
   font-family: "Karla", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
-
 }
 
-@media (max-width:768px) {
-  .meme--text{
+@media (max-width: 768px) {
+  .meme--text {
     font-size: 1.2em;
   }
 }
 
-@media (max-width:550px) {
-  .meme--text{
+@media (max-width: 550px) {
+  .meme--text {
     font-size: 0.8em;
   }
-  .meme--button{
+  .meme--button {
     font-size: 0.8em;
   }
 }
