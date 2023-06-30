@@ -11,23 +11,56 @@ export default function Meme() {
 
   function getMemeImage() {
     const memesArray = allMemeImages.data.memes;
-    const randomElement =
-      memesArray[Math.floor(Math.random() * memesArray.length)].url;
+    const randomNumber = Math.floor(Math.random() * memesArray.length);
+    const url = memesArray[randomNumber].url;
     setMeme((prevMeme) => ({
       ...prevMeme,
-      randomImage: randomElement,
+      randomImage: url,
     }));
   }
+
+  function handleChange(event) {
+    const { name, value } = event.target;
+    setMeme((prevMeme) => {
+      return {
+        ...prevMeme,
+        [name]: value,
+      };
+    });
+  }
+
   return (
     <main>
-      <div className="form">
-        <input type="text" className="form__input" placeholder="Top text" />
-        <input type="text" className="form__input" placeholder="Bottom text" />
-        <button className="form__button" onClick={getMemeImage}>
-          Get a new meme image 🖼
-        </button>
+      <div className="container">
+        <div className="wrapper">
+          <div className="form">
+            <input
+              type="text"
+              name="topText"
+              placeholder="Top text"
+              className="form--input"
+              onChange={handleChange}
+              value={meme.topText}
+            />
+            <input
+              type="text"
+              name="bottomText"
+              placeholder="Bottom text"
+              className="form--input"
+              onChange={handleChange}
+              value={meme.bottomText}
+            />
+          </div>
+          <div className="meme">
+            <img src={meme.randomImage} className="meme--image" />
+            <h2 className="meme--text top">{meme.topText}</h2>
+            <h2 className="meme--text bottom">{meme.bottomText}</h2>
+          </div>
+          <button className="meme--button" onClick={getMemeImage}>
+            Get a new meme image 🖼
+          </button>
+        </div>
       </div>
-      <img src={meme.randomImage} alt="" className="meme__image" />
     </main>
   );
 }
