@@ -25,7 +25,7 @@ Dynamic website which provide you some random meme from
 Project is created with:
 
 - JavaScript ES6
-- React(states, props)
+- React(event listeners,states, conditional rendering,forms,side effects)
 - Vite
 
 ## Setup
