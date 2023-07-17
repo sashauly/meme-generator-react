@@ -2,7 +2,8 @@
 
 ![Overview](./misc/overview.png)
 
-Live demo [_here_](https://sashauly.github.io/meme-generator-react/).
+> Dynamic website which provide you some random meme from ImgflipAPI.
+> Live demo [_here_](https://sashauly.github.io/meme-generator-react/).
 
 ## Table of contents
 
