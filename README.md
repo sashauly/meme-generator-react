@@ -25,8 +25,8 @@ Project is created with:
 
 - JavaScript ES6
 - fetch() method with [ImgflipAPI](https://imgflip.com/api)
-- React(event listeners,states, conditional rendering,forms,side effects)
-- Vite
+- [React 18.2.0](https://react.dev/)(event listeners,states, conditional rendering,forms,side effects)
+- [vite 4.4.0](https://vitejs.dev/)
 
 ## Setup
 
@@ -40,6 +40,9 @@ Just open [the live version](https://sashauly.github.io/meme-generator-react/). 
 ## Project status
 
 Project is: _complete_
+
+## Acknowledgements
+- This project was based on [this Scrimba course tutorial](https://scrimba.com/learn/learnreact).
 
 ## Contacts
 
