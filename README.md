@@ -12,7 +12,6 @@ Live demo [_here_](https://sashauly.github.io/meme-generator-react/).
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Features](#features)
-    - [TODO:](#todo)
   - [Project status](#project-status)
   - [Contacts](#contacts)
 
@@ -25,6 +24,7 @@ Dynamic website which provide you some random meme from
 Project is created with:
 
 - JavaScript ES6
+- fetch() method with [ImgflipAPI](https://imgflip.com/api)
 - React(event listeners,states, conditional rendering,forms,side effects)
 - Vite
 
@@ -34,11 +34,12 @@ Just open [the live version](https://sashauly.github.io/meme-generator-react/). 
 
 ## Features
 
-### TODO:
+- Getting new meme from [ImgflipAPI](https://imgflip.com/api) on button click
+- Possibility to add text for the meme above and below the meme
 
 ## Project status
 
-Project is: _in progress_
+Project is: _complete_
 
 ## Contacts
 
